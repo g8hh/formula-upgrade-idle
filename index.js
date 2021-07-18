@@ -1558,7 +1558,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.amo = new cjs.Text("MAX", "23px 'Tahoma'");
+	this.amo = new cjs.Text("最大", "23px 'Tahoma'");
 	this.amo.name = "amo";
 	this.amo.textAlign = "center";
 	this.amo.lineHeight = 30;
@@ -1616,7 +1616,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.text = new cjs.Text("Watch an ad to get free\n5 min of SpeedUP", "bold 21px 'Consolas'", "#003300");
+	this.text = new cjs.Text("看广告获得\n5 分钟加速", "bold 21px 'Consolas'", "#003300");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 27;
 	this.text.parent = this;
@@ -1670,7 +1670,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.timeline.addTween(cjs.Tween.get(this.hover).wait(1));
 
 	// Слой_1
-	this.zcl = new cjs.Text("Click 5 times", "23px 'Tahoma'");
+	this.zcl = new cjs.Text("点击5次", "23px 'Tahoma'");
 	this.zcl.name = "zcl";
 	this.zcl.textAlign = "center";
 	this.zcl.lineHeight = 30;
@@ -1692,7 +1692,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.znow.parent = this;
 	this.znow.setTransform(43.75,37.05);
 
-	this.text = new cjs.Text("Z-Prestige", "23px 'Tahoma'");
+	this.text = new cjs.Text("Z-声望", "23px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 167;
@@ -1744,7 +1744,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.tch.parent = this;
 	this.tch.setTransform(11.35,47.8);
 
-	this.text = new cjs.Text("Tick Speed", "23px 'Tahoma'");
+	this.text = new cjs.Text("Tick 速度", "23px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 205;
@@ -1801,7 +1801,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.timeline.addTween(cjs.Tween.get(this.hover).wait(1));
 
 	// Слой_1
-	this.gcl = new cjs.Text("Click 5 times", "23px 'Tahoma'");
+	this.gcl = new cjs.Text("点击 5 次", "23px 'Tahoma'");
 	this.gcl.name = "gcl";
 	this.gcl.textAlign = "center";
 	this.gcl.lineHeight = 30;
@@ -1823,7 +1823,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.gnow.parent = this;
 	this.gnow.setTransform(43.75,37.05);
 
-	this.text = new cjs.Text("G-Prestige", "23px 'Tahoma'");
+	this.text = new cjs.Text("G-声望", "23px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 167;
@@ -1853,7 +1853,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.timeline.addTween(cjs.Tween.get(this.hover).wait(1));
 
 	// Слой_1
-	this.dcl = new cjs.Text("Click 5 times", "23px 'Tahoma'");
+	this.dcl = new cjs.Text("点击 5 次", "23px 'Tahoma'");
 	this.dcl.name = "dcl";
 	this.dcl.textAlign = "center";
 	this.dcl.lineHeight = 30;
@@ -1875,7 +1875,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.dnow.parent = this;
 	this.dnow.setTransform(43.75,37.05);
 
-	this.text = new cjs.Text("D-Prestige", "23px 'Tahoma'");
+	this.text = new cjs.Text("D-声望", "23px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 167;
@@ -1920,7 +1920,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.tch.parent = this;
 	this.tch.setTransform(11.35,47.8);
 
-	this.text = new cjs.Text("C Tick Speed", "23px 'Tahoma'");
+	this.text = new cjs.Text("C Tick 速度", "23px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 205;
@@ -2367,7 +2367,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			
 			this.clickPlace.getAmount.text = format2(incomeOne);
 			this.tickProgress.text = Math.round(tickP*10)/10 + "s";
-			this.comboPC.text = "COMBO: " + Math.round(combo*1000)/10 + "%";
+			this.comboPC.text = "组合: " + Math.round(combo*1000)/10 + "%";
 			this.gemsNow.text = format2(money);
 			
 			
@@ -2454,7 +2454,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.DPrestige.visible = true;
 				this.DPrestige.dnow.text = ": " + format2(D);
 				this.DPrestige.dnext.text = ": " + format2(D_next);
-				this.DPrestige.dcl.text = "Click " + Math.round(clicksD) + " times";
+				this.DPrestige.dcl.text = "点击 " + Math.round(clicksD) + " 次";
 			}
 			else {
 				this.DPrestige.visible = false;
@@ -2465,7 +2465,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.ZPrestige.visible = true;
 				this.ZPrestige.znow.text = ": " + format2(Z);
 				this.ZPrestige.znext.text = ": " + format2(Z_next);
-				this.ZPrestige.zcl.text = "Click " + Math.round(clicksZ) + " times";
+				this.ZPrestige.zcl.text = "点击 " + Math.round(clicksZ) + " 次";
 			}
 			else {
 				this.ZPrestige.visible = false;
@@ -2475,7 +2475,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.GPrestige.visible = true;
 				this.GPrestige.gnow.text = ": " + Math.round(G*10000)/10000;
 				this.GPrestige.gnext.text = ": " + Math.round(G_next*10000)/10000;
-				this.GPrestige.gcl.text = "Click " + Math.round(clicksG) + " times";
+				this.GPrestige.gcl.text = "点击 " + Math.round(clicksG) + " 次";
 			}
 			else {
 				this.GPrestige.visible = false;
@@ -3124,7 +3124,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			this.buy1.amo.text = "1";
 			this.buy10.amo.text = "10";
 			this.buy100.amo.text = "100";
-			this.buymax.amo.text = "MAX";
+			this.buymax.amo.text = "最大";
 			if (buyType == 1) {
 				this.buy1.gotoAndStop(1);
 				this.buy10.gotoAndStop(0);
@@ -3315,7 +3315,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Here was an error with an ad but anyway here is 1.5 mins of bonus time for you ;)";
+			this.helpSplash.text = "这是一个广告错误，但无论如何这里有 1.5 分钟的奖励时间给你 ;)";
 			speedUPtime_ib += 90;
 			respawn = 300;
 		}
@@ -3324,7 +3324,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Thanks very much for watching. Here is your bonus 5 mins!";
+			this.helpSplash.text = "非常感谢观看。 这是您的奖励 5 分钟！";
 			speedUPtime_ib += 300;
 			respawn = 300;
 		}
@@ -3341,7 +3341,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			fps2 = 30;
 			money = b_plus(money, b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
 			allmoney = b_plus(allmoney, b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
-			this.helpSplash.text = "U got " + format2(b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
+			this.helpSplash.text = "你获得 " + format2(b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
 		}
 		
 		
@@ -3390,7 +3390,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.spdTime.visible = false;
 				sActive = false;
 				if (crazysdk.hasAdblock) {
-					this.helpSplash.text = "Sorry, but you have adblock";
+					this.helpSplash.text = "抱歉，您有广告拦截";
 				}
 				this.adButton.visible = true;
 			}
@@ -3461,7 +3461,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.spdTime.parent = this;
 	this.spdTime.setTransform(1048.5,602.15,0.7879,0.7858);
 
-	this.spdUP = new cjs.Text("SpeedUP (x3, max 1h)", "bold 18px 'Consolas'");
+	this.spdUP = new cjs.Text("加速 (x3, 最大 1小时)", "bold 18px 'Consolas'");
 	this.spdUP.name = "spdUP";
 	this.spdUP.textAlign = "center";
 	this.spdUP.lineHeight = 23;
@@ -3647,7 +3647,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.buy1.name = "buy1";
 	this.buy1.setTransform(337.25,129,1,1,0,0,0,21.3,11.3);
 
-	this.formulaTT = new cjs.Text("Formula:", "23px 'Tahoma'");
+	this.formulaTT = new cjs.Text("公式:", "23px 'Tahoma'");
 	this.formulaTT.name = "formulaTT";
 	this.formulaTT.textAlign = "center";
 	this.formulaTT.lineHeight = 30;
@@ -3673,7 +3673,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 	this.gemsNow.parent = this;
 	this.gemsNow.setTransform(342.55,49.7);
 
-	this.comboPC = new cjs.Text("COMBO: 102%", "23px 'Tahoma'");
+	this.comboPC = new cjs.Text("组合: 102%", "23px 'Tahoma'");
 	this.comboPC.name = "comboPC";
 	this.comboPC.textAlign = "center";
 	this.comboPC.lineHeight = 30;

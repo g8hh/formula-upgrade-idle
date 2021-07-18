@@ -3348,7 +3348,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 		
 		this.cGames.addEventListener("click", goCG.bind(this));
 		function goCG() {
-			window.open("http://crazygames.com/", "_blank");
+			window.open("http://gityx.com/", "_blank");
 		}
 		
 		
@@ -3373,7 +3373,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.speedUP_b.visible = true;
 				this.spdUP.visible = true;
 				this.spdTime.visible = true;
-				this.spdUP.text = "SpeedUP (x5, max 1h)";
+				this.spdUP.text = "加速 (x5, 最大 1h)";
 				this.spdTime.text = Math.round(speedUPtime_ib*10)/10 + "s";
 				
 				if (sActive == true) {

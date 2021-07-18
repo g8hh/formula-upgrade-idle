@@ -2367,7 +2367,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			
 			this.clickPlace.getAmount.text = format2(incomeOne);
 			this.tickProgress.text = Math.round(tickP*10)/10 + "s";
-			this.comboPC.text = "COMBO: " + Math.round(combo*1000)/10 + "%";
+			this.comboPC.text = "组合: " + Math.round(combo*1000)/10 + "%";
 			this.gemsNow.text = format2(money);
 			
 			
@@ -2454,7 +2454,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.DPrestige.visible = true;
 				this.DPrestige.dnow.text = ": " + format2(D);
 				this.DPrestige.dnext.text = ": " + format2(D_next);
-				this.DPrestige.dcl.text = "Click " + Math.round(clicksD) + " times";
+				this.DPrestige.dcl.text = "点击 " + Math.round(clicksD) + " 次";
 			}
 			else {
 				this.DPrestige.visible = false;
@@ -2465,7 +2465,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.ZPrestige.visible = true;
 				this.ZPrestige.znow.text = ": " + format2(Z);
 				this.ZPrestige.znext.text = ": " + format2(Z_next);
-				this.ZPrestige.zcl.text = "Click " + Math.round(clicksZ) + " times";
+				this.ZPrestige.zcl.text = "点击 " + Math.round(clicksZ) + " 次";
 			}
 			else {
 				this.ZPrestige.visible = false;
@@ -2475,7 +2475,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.GPrestige.visible = true;
 				this.GPrestige.gnow.text = ": " + Math.round(G*10000)/10000;
 				this.GPrestige.gnext.text = ": " + Math.round(G_next*10000)/10000;
-				this.GPrestige.gcl.text = "Click " + Math.round(clicksG) + " times";
+				this.GPrestige.gcl.text = "点击 " + Math.round(clicksG) + " 次";
 			}
 			else {
 				this.GPrestige.visible = false;
@@ -3124,7 +3124,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			this.buy1.amo.text = "1";
 			this.buy10.amo.text = "10";
 			this.buy100.amo.text = "100";
-			this.buymax.amo.text = "MAX";
+			this.buymax.amo.text = "最大";
 			if (buyType == 1) {
 				this.buy1.gotoAndStop(1);
 				this.buy10.gotoAndStop(0);
@@ -3315,7 +3315,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Here was an error with an ad but anyway here is 1.5 mins of bonus time for you ;)";
+			this.helpSplash.text = "这是一个广告错误，但无论如何这里有 1.5 分钟的奖励时间给你 ;)";
 			speedUPtime_ib += 90;
 			respawn = 300;
 		}
@@ -3324,7 +3324,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Thanks very much for watching. Here is your bonus 5 mins!";
+			this.helpSplash.text = "非常感谢观看。 这是您的奖励 5 分钟！";
 			speedUPtime_ib += 300;
 			respawn = 300;
 		}
@@ -3341,7 +3341,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 			fps2 = 30;
 			money = b_plus(money, b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
 			allmoney = b_plus(allmoney, b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
-			this.helpSplash.text = "U got " + format2(b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
+			this.helpSplash.text = "你获得 " + format2(b_mult(b_copy(ticksMult), b_mult(1000, incomeOne)));
 		}
 		
 		
@@ -3390,7 +3390,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,108,45);
 				this.spdTime.visible = false;
 				sActive = false;
 				if (crazysdk.hasAdblock) {
-					this.helpSplash.text = "Sorry, but you have adblock";
+					this.helpSplash.text = "抱歉，您有广告拦截";
 				}
 				this.adButton.visible = true;
 			}
